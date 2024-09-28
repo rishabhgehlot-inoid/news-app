@@ -1,0 +1,55 @@
+.blog-card {
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.blog-image {
+  object-fit: cover;
+  height: 200px;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.blog-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blog-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.delete-btn,
+.update-btn,
+.read-more-btn {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border-radius: 0.25rem;
+  background-color: #6c757d;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover,
+.update-btn:hover,
+.read-more-btn:hover {
+  background-color: #5a6268;
+}
+
+.read-more-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.read-more-btn:hover {
+  background-color: #0056b3;
+}
